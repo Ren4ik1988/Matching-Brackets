@@ -15,7 +15,7 @@ namespace Matching_Brackets
         private const string Brackets = "(){}[]<>";
         private int countOfTests;
         private string input;
-        private List <char> testList;
+        private List<char> testList;
 
         public void StartProgram()
         {
@@ -25,7 +25,7 @@ namespace Matching_Brackets
             {
                 input = Console.ReadLine();
                 deleteOrAddToList();
-                Console.Write("{0} ",checkTestList());
+                Console.Write("{0} ", checkTestList());
             }
         }
 
@@ -33,13 +33,21 @@ namespace Matching_Brackets
         {
             foreach (var c in input)
             {
-                if(Brackets.Contains(c.ToString()))
+                if (Brackets.Contains(c.ToString()))
                     testList.Add(c);
             }
         }
 
         int checkTestList()
         {
-            return 0;
+            if (testList.Count % 2 != 0)
+                return 0;
+
+           
+            char temp = Convert.ToChar(Convert.ToUInt32(testList[0]) + 1);
+            int indexEnd = testList.IndexOf(temp);
+            return 1;
+            
         }
+    }
 }
