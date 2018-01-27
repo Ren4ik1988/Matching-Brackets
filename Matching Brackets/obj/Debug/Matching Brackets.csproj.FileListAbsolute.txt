@@ -1,0 +1,6 @@
+E:\Projects Git\Matching-Brackets\Matching Brackets\bin\Debug\Matching_Brackets.exe
+E:\Projects Git\Matching-Brackets\Matching Brackets\bin\Debug\Matching_Brackets.pdb
+E:\Projects Git\Matching-Brackets\Matching Brackets\obj\Debug\Matching Brackets.csprojResolveAssemblyReference.cache
+E:\Projects Git\Matching-Brackets\Matching Brackets\obj\Debug\Matching Brackets.csproj.CoreCompileInputs.cache
+E:\Projects Git\Matching-Brackets\Matching Brackets\obj\Debug\Matching_Brackets.exe
+E:\Projects Git\Matching-Brackets\Matching Brackets\obj\Debug\Matching_Brackets.pdb
